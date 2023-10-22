@@ -1,5 +1,5 @@
 package javaapplication1;
-
+// aca se crean los atibutos solicitados 
 public class Cancion {
     private int idCancion;
     private String titulo;
@@ -14,7 +14,7 @@ public class Cancion {
         this.duracion = duracion;
         this.anioCreacion = anioCreacion;
     }
-
+// se llaman los get y set con lo que nos eseño el profe 
     public int getIdCancion() {
         return idCancion;
     }
